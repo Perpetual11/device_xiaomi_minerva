@@ -20,6 +20,11 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Preopt critical applications
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
