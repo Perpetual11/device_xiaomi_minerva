@@ -16,5 +16,8 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 ODM_MANIFEST_SKUS += lemon
 ODM_MANIFEST_LEMON_FILES := hardware/st/nfc/aidl/nfc-service-default.xml
 
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := lime,lemon,pomelo
+
 # Inherit the proprietary files
 include vendor/xiaomi/lime/BoardConfigVendor.mk
