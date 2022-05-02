@@ -9,6 +9,10 @@ $(call inherit-product, device/xiaomi/minerva/device-common.mk)
 
 PRODUCT_HARDWARE := lime
 
+# Mlipay
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.mlipay@1.1.vendor:64
+
 # NFC
 TARGET_NFC_SKU := lemon
 
