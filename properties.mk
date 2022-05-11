@@ -197,6 +197,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.vendor.cne.feature=1
 
+# Compile SystemUI on device with `speed`.
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.systemuicompilerfilter=speed
+
 # Crypto
 PRODUCT_VENDOR_PROPERTIES += \
     ro.crypto.allow_encrypt_override=true \
