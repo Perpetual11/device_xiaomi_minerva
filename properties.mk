@@ -399,6 +399,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     DEVICE_PROVISIONED=1 \
     persist.data.netmgrd.qos.enable=true \
+    persist.sys.radio.force_lte_ca=true \
     persist.vendor.data.mode=concurrent \
     persist.vendor.radio.atfwd.start=true \
     persist.vendor.radio.redir_party_num=1 \
