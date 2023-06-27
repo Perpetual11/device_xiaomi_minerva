@@ -9,6 +9,10 @@ $(call inherit-product, device/xiaomi/minerva/device-common.mk)
 
 PRODUCT_HARDWARE := lime
 
+# IFAAService
+PRODUCT_PACKAGES += \
+    IFAAService
+
 # Mlipay
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.mlipay@1.1.vendor:64
