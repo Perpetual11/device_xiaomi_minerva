@@ -12,5 +12,9 @@ include device/xiaomi/minerva/BoardConfig-common.mk
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
+# HIDL
+ODM_MANIFEST_SKUS += lemon
+ODM_MANIFEST_LEMON_FILES := hardware/st/nfc/aidl/nfc-service-default.xml
+
 # Inherit the proprietary files
 include vendor/xiaomi/lime/BoardConfigVendor.mk
