@@ -97,6 +97,13 @@ prebuilt_etc {
     vendor: true,
 }
 
+prebuilt_etc {
+    name: "fstab.postinstall_avb",
+    filename: "fstab.postinstall",
+    src: "fstab.postinstall",
+    product_specific: true,
+}
+
 cc_library_static {
     name: "libinit_xiaomi_minerva",
     srcs: [

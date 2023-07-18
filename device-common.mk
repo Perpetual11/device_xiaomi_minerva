@@ -363,6 +363,7 @@ PRODUCT_PACKAGES += \
     ueventd.xiaomi.rc
 
 PRODUCT_PACKAGES += \
+    fstab.postinstall_avb \
     fstab.qcom_ramdisk \
     fstab.qcom
 

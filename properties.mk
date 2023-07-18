@@ -378,6 +378,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
+# Post-install filesytem table
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.postinstall.fstab.prefix=/product
+
 # QCA1530 detection
 PRODUCT_SYSTEM_PROPERTIES += \
     sys.qca1530=detect
