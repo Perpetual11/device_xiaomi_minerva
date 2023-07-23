@@ -9,5 +9,8 @@ DEVICE_PATH := device/xiaomi/minerva/citrus
 # Inherit from minerva
 include device/xiaomi/minerva/BoardConfig-common.mk
 
+# Board
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+
 # Inherit the proprietary files
 include vendor/xiaomi/citrus/BoardConfigVendor.mk
