@@ -25,4 +25,4 @@ export DEVICE=citrus
 export DEVICE_COMMON=minerva
 export VENDOR=xiaomi
 
-"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+"./../../${VENDOR}/${DEVICE_COMMON}/self-extractors/extract-files.sh" "$@"

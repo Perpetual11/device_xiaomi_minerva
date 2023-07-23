@@ -11,4 +11,4 @@ export DEVICE=citrus
 export DEVICE_COMMON=minerva
 export VENDOR=xiaomi
 
-"./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
+"./../../${VENDOR}/${DEVICE_COMMON}/self-extractors/setup-makefiles.sh" "$@"
