@@ -130,3 +130,19 @@ cc_library_static {
     include_dirs: ["system/core/init"],
     recovery_available: true,
 }
+
+cc_library_static {
+    name: "init_xiaomi_citrus",
+    srcs: ["init_xiaomi_citrus.cpp"],
+    whole_static_libs: ["libinit_xiaomi_minerva"],
+    include_dirs: ["system/core/init"],
+    recovery_available: true,
+}
+
+cc_library_static {
+    name: "init_xiaomi_lime",
+    srcs: ["init_xiaomi_lime.cpp"],
+    whole_static_libs: ["libinit_xiaomi_minerva"],
+    include_dirs: ["system/core/init"],
+    recovery_available: true,
+}
