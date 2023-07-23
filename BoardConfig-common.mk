@@ -76,6 +76,8 @@ TARGET_INIT_VENDOR_LIB ?= //$(COMMON_PATH):init_xiaomi_minerva
 TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_minerva
 
 # Kernel
+include $(COMMON_PATH)-kernel/BoardConfig-kernel.mk
+
 BOARD_KERNEL_CMDLINE := \
     androidboot.console=ttyMSM0 \
     androidboot.fstab_suffix=qcom \
