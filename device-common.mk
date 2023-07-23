@@ -310,11 +310,11 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    CarrierConfigCommon \
-    FrameworksResCommon \
-    SettingsResCommon \
-    SystemUIResCommon \
-    TelephonyResCommon
+    CarrierConfigMinerva \
+    FrameworksResMinerva \
+    SettingsResMinerva \
+    SystemUIResMinerva \
+    TelephonyResMinerva
 
 # Perf
 PRODUCT_PACKAGES += \

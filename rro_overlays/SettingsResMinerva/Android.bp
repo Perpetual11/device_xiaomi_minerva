@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "FrameworksResCommon",
+    name: "SettingsResMinerva",
     sdk_version: "current",
     vendor: true
 }
