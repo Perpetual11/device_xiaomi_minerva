@@ -19,3 +19,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 # Google Play services configuration
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Build fingerprint.
+BUILD_FINGERPRINT := google/redfin/redfin:13/TQ3A.230705.001/10216780:user/release-keys
