@@ -363,10 +363,10 @@ PRODUCT_PACKAGES += \
     init.qti.early_init.sh
 
 PRODUCT_PACKAGES += \
+    init.minerva.rc \
     init.qcom.factory.rc \
     init.qcom.rc \
     init.recovery.qcom.rc \
-    init.target.rc \
     ueventd.xiaomi.rc
 
 PRODUCT_PACKAGES += \
