@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_citrus.mk \
-    $(LOCAL_DIR)/aosp_lime.mk
+    $(LOCAL_DIR)/syberia_citrus.mk \
+    $(LOCAL_DIR)/syberia_lime.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_citrus-user \
-    aosp_citrus-userdebug \
-    aosp_citrus-eng \
-    aosp_lime-user \
-    aosp_lime-userdebug \
-    aosp_lime-eng
+    syberia_citrus-user \
+    syberia_citrus-userdebug \
+    syberia_citrus-eng \
+    syberia_lime-user \
+    syberia_lime-userdebug \
+    syberia_lime-eng
