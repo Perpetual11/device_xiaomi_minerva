@@ -17,4 +17,4 @@
 # mount as a physical partition.
 
 #<src>                    <mnt_point>  <type> <mnt_flags and options> <fs_mgr_flags>
-system                    /postinstall ext4   ro,nosuid,nodev,noexec  slotselect_other,logical,avb_keys=/product/etc/security/avb/system_other.avbpubkey
+system                    /postinstall ext4   ro,nosuid,nodev,noexec  logical,avb_keys=/product/etc/security/avb/system_other.avbpubkey
