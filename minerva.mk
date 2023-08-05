@@ -17,6 +17,9 @@ TARGET_USES_AOSP_RECOVERY := true
 # Include GApps.
 WITH_GMS := true
 
+# Include Pixel charger animation.
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_MANUFACTURER := Xiaomi
 
