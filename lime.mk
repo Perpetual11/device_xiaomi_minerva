@@ -7,11 +7,11 @@
 # Inherit common product configuration.
 $(call inherit-product, $(LOCAL_PATH)/minerva.mk)
 
-# Inherit from citrus device.
-$(call inherit-product, $(LOCAL_PATH)/device-citrus.mk)
+# Inherit from lime device.
+$(call inherit-product, $(LOCAL_PATH)/device-lime.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_citrus
-PRODUCT_DEVICE := citrus
-PRODUCT_BRAND := POCO
-PRODUCT_MODEL := POCO M3
+PRODUCT_NAME := lime
+PRODUCT_DEVICE := lime
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi 9T
