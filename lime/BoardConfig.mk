@@ -16,10 +16,6 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 ODM_MANIFEST_SKUS += lemon
 ODM_MANIFEST_LEMON_FILES := hardware/st/nfc/aidl/nfc-service-default.xml
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_lime
-TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_lime
-
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := lime,lemon,pomelo
 
