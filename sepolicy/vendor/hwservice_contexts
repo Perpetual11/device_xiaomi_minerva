@@ -8,6 +8,7 @@ vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonExt      
 vendor.silead.hardware.fingerprintext::ISileadFingerprint                                u:object_r:hal_fingerprint_hwservice:s0
 
 # IMS
+com.qualcomm.qti.uceservice::IUceService                                                 u:object_r:vendor_hal_imsrcsd_hwservice:s0
 vendor.qti.ims.callinfo::IService                                                        u:object_r:vendor_hal_imscallinfo_hwservice:s0
 
 # Mlipay
