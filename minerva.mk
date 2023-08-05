@@ -14,6 +14,9 @@ $(call inherit-product, vendor/syberia/config/common_full_phone.mk)
 # Enable AOSP recovery flashing.
 TARGET_USES_AOSP_RECOVERY := true
 
+# Include GApps.
+WITH_GMS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_MANUFACTURER := Xiaomi
 
