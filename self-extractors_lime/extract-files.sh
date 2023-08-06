@@ -14,9 +14,6 @@ function blob_fixup() {
         vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
             "${SIGSCAN}" -p "13 0A 00 94" -P "1F 20 03 D5" -f "${2}"
             ;;
-        vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.minerva.rc)
-            sed -i 's|android.hardware.biometrics.fingerprint@2.1-service|android.hardware.biometrics.fingerprint@2.1-service.minerva|g' "${2}"
-            ;;
     esac
 }
 
